@@ -1,0 +1,74 @@
+@media (max-width:1140px){
+  .footer_row{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+  .footer_social_icons{
+    max-width: 220px;
+  }
+  .footer_cta{
+    max-width: 300px;
+  }
+}
+
+@media (max-width:760px){
+  .header{
+
+    h1{
+      font-size: 34px;
+    }
+  }
+
+  .header_subtitle{
+    font-size: 12px;
+  }
+
+  .portfolio{
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    &_header{
+      margin-bottom: 40px;
+    }
+
+    &_cards{
+      grid-template-columns: 80%;
+    }
+  }
+
+}
+
+@media (max-width:599px){
+  .portfolio{
+    &_cards{
+      grid-template-columns: 1fr;
+    }
+  }
+  .footer{
+    padding-top: 55px;
+    padding-bottom: 70px;
+  }
+}
+
+
+@media (max-width:420px){
+  .header_subtitle{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .portfolio_header{
+    font-size: 34px;
+  }
+
+  .portfolio_cards_item{
+    h3{
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+    p{
+      padding-bottom: 20px;
+      font-size: 16px;
+    }
+  }
+}
