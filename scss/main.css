@@ -48,6 +48,7 @@ ul, li {
 }
 
 .header {
+  background-image: url("./../../img/bg.webp");
   opacity: 0.9;
   background-size: cover;
   background-position: center;
